@@ -1,0 +1,94 @@
+/*custom property*/
+:root
+{
+--shadow:
+}
+
+*{box-sizing:border-box}
+html{
+    height: 100%;
+   
+}
+body{
+    height: 100%;
+    font-weight: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 81px;
+    padding-right: 81px;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F2F2F2;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: auto;
+}
+.heading2{
+    font-weight: 600;
+}
+.header-img{
+    margin-right: 10.5px;
+}
+.search{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+
+
+
+   
+}
+.global-search{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 48px;
+  
+
+}
+
+
+.global-search-input{
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    padding: 18px 270px 18px 74px;
+    background-image: url("..//images/Mask.png");
+    background-repeat: no-repeat;
+    background-position-x: 32px;
+    background-position-y: center;
+    margin-right: 600px;
+   
+    
+}
+.region-search-input{
+    padding: 18px 77px 18px 24px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 48px;    
+   
+}
+.main-section{
+    display: grid;
+
+    gap: 75px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.section {
+  
+   
+    align-content: flex-start;
+    
+}
+.site-list{
+    background-color: #ffff;
+   
+}
+.site-img{
+
+   
+}
